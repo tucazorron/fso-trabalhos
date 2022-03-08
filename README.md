@@ -1,2 +1,8 @@
-# fso-trabalho-1
-primeiro trabalho de fundamentos de sistemas operacionais
+# Fundamentos de Sistemas Operacionais - Trabalho 1
+
+## Alunos
+
+- Artur Zorron
+- Guilherme Mendel
+- Caroline
+- Gabriel Martins
