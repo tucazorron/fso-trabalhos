@@ -1,8 +1,8 @@
-# Fundamentos de Sistemas Operacionais - Trabalho 1
+# Fundamentos de Sistemas Operacionais - Trabalhos
 
 ## Alunos
 
 - Artur Zorron
 - Guilherme Mendel
-- Caroline
+- Caroline Ferreira
 - Gabriel Martins
