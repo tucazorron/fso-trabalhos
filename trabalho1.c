@@ -73,6 +73,8 @@ int main()
     while (childrenNotifications < CHILD_COUNT)
         sleep(10);
 
+    getchar();
+    
     // Afterwards, parent must notify children back
     for (int i = 0; i < CHILD_COUNT; i++)
     {
