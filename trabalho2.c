@@ -63,7 +63,7 @@ int main()
     for (int i = 0; i < CHILD_COUNT; i++)
     {
         // Gera o numero aleatorio
-        int childTime = RANDOM_RANGE(60, 180);
+        int childTime = RANDOM_RANGE(2, 8);
 
         // Gera um filho
         pid_t forkResult = safeFork();
@@ -101,7 +101,7 @@ int main()
     signal(SIGALRM, handleSIGALRM);
 
     // Prepara o alarme para ressucitar cada um dos filhos
-
+    getchar();
     // O handler do alarme automaticamente inicia o proximo alarme quando este disparar, e faz isso apra cada filho
     alarm(children[0].time);
 
@@ -167,7 +167,7 @@ void childRoutine()
 {
     long int i;
 
-    for (long int i = 0; i < 50000000000; i++)
+    for (long int i = 0; i < 500000000; i++)
         ; /* busy waiting com 100% de CPU – demora cerca de 80s */
 
     // Imprime seu pid
